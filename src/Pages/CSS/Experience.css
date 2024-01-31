@@ -1,0 +1,107 @@
+
+.EXPR-container{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(26,28,33);
+    width: 90vw;
+    border-radius: 20px;
+    border-width: 6px;
+}
+.EXPR-img-col{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px 0 10px;
+}
+.EXPR-img{
+    flex:100%;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.EXPR-data-col{
+    margin-left: 25px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.EXPR-title{
+    color:rgb(239,244,30);
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.EXPR-position{
+    font-size: 28px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.EXPR-location{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.25;
+}
+
+.EXPR-longevity{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.25;
+}
+
+.EXPR-description{
+    font-size: 19px;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.EXPR-tags{
+    display: flex;
+    flex-direction: row;
+    color:rgba(240, 244, 30, 0.531);
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:700px){
+    .EXPR-img-col{
+        width: 90%;
+    }
+    .EXPR-img{
+        width: 40%;
+        padding: 10px;
+        flex:1;
+    }
+    .EXPR-data-col{
+        width:100%;
+        padding: 10px;
+        margin-left: 0;
+    }
+    .EXPR-title{
+        font-size: 26px;
+    }
+    .EXPR-position{
+        margin-top: 5px;
+        font-size: 24px;
+    }
+    .EXPR-location{
+        font-size: 19px;
+    }
+    .EXPR-longevity{
+        font-size: 17px;
+        padding-top: 5px;
+    }
+    .EXPR-description{
+        font-size: 16px;
+    }
+    .EXPR-tags{
+        font-size: 19px;
+    }
+}

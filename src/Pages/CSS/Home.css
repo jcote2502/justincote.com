@@ -1,0 +1,48 @@
+
+
+.banner {
+    width: 100%;
+    height: 25vw;
+    background-color: #000000;
+    position: relative;
+    margin-bottom:85px;
+}
+
+.row-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.circle {
+    width: 19vw;
+    height: 19svw;
+    border-radius: 50%;
+    position: absolute;
+    top: 8.2vw;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background-color: rgb(239,244,30);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 9.25vw;
+    height: 9.25vw;
+    border-radius: 100px;
+    transform: scale(2);
+}
+
+.edu-column{
+    background-color:rgb(26,28,33);
+    margin:40px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:600px){
+    .edu-column{
+        margin:10px;
+    }
+}

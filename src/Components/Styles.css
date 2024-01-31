@@ -1,0 +1,129 @@
+.TAT-container {
+    flex:1;
+    margin:20px;
+    padding:5px;
+    background-color: rgb(26, 28, 33);
+    border-radius: 20px;
+}
+
+.TAT-title {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(239, 244, 30);
+}
+
+.TAT-message {
+    display: inline-block;
+    word-wrap: break-word;
+    line-height: 1.5;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.LIST-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+}
+
+.LIST-element {
+    flex:50%;
+    text-align: left;
+}
+
+.FTR {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 55px;
+    margin-bottom: 2px;
+    height: 30px;
+    width: 100vw;
+}
+
+.CARD-SCHOOL-Container {
+    margin: 5px 75px 30px 75px;
+    position: relative;
+    display: flex;
+}
+
+
+
+
+.CARD-SCHOOL-Icon-Container {
+    position: absolute;
+    top: 0;
+    right: 9%;
+    transform: translate(50%, -50%);
+    max-width: 300px;
+    max-height: 110px;
+    width: auto;
+    height: auto;
+}
+
+.CARD-PROJ-Container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 125px;
+    max-height: 700px;
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    border: 1.5px rgb(239, 244, 30);
+    /* Optional: Add border for visual separation */
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(26, 28, 33);
+}
+
+.CARD-PROJ-Container:hover {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 125px;
+    max-height: 700px;
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    border: 1px solid rgb(239, 244, 30);
+    /* Optional: Add border for visual separation */
+    color: rgb(26, 28, 33);
+    background-color: rgb(240, 231, 231);
+}
+
+.CARD-PROJ-title {
+    font-size: 16px;
+}
+
+.CARD-PROJ-tags {
+    font-size: 12px;
+}
+
+@media screen and (max-width:600px){
+    .TAT-container{
+        flex: 100%;
+    }
+    .LIST-element{
+        font-size: 10px;
+    }
+    .CARD-SCHOOL-Container{
+        flex:100%;
+        padding: 5px;
+        margin: 0;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .CARD-SCHOOL-Icon-Container{
+        position: relative;
+        transform: none;
+    }
+}

@@ -1,0 +1,165 @@
+.page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 110px;
+    max-height: 350px;
+    height: auto;
+    width: 100vw;
+    margin-top: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.feature-title{
+    width: 60vw;
+    text-align: left;
+    color:azure;
+    padding-left: 5px;
+    font-size: 22px;
+}
+
+.feature-scroll{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.feature-scroll::-webkit-scrollbar{
+    height: 7px;
+}
+
+.feature-scroll::-webkit-scrollbar-thumb{
+    background-color: rgba(26, 28, 33, 0.289);
+}
+
+.feature-scroll::-webkit-scrollbar-track{
+    background-color: rgba(240, 244, 30, 0.304);
+}
+
+.feature-item{
+    max-width: 150px;
+}
+
+.feature-scroll:hover{
+    background-color: rgb(26,28,33);
+}
+
+.body-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.info-row{
+    box-sizing: border-box;
+    border: 1px solid #000;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(26,28,33);
+}
+
+.info-row.items {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.info-item.title {
+    font-size: 24px;
+    color: rgb(239,244,30);
+    font-weight: bold;
+}
+
+.info-item.bold {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info-row.summary {
+    flex: 3;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+@media (max-width:900px){
+    .info-row.item {
+        flex: 100%;  
+    }
+    .info-row.items{
+        justify-content: center;
+        align-items: center;
+    }
+    .info-row.summary{
+        flex: 100%;
+    }
+}
+
+.description-box{
+    margin: 25px 25px 0px 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.description-list{
+    display: flex;
+    margin: 5px;
+    padding: 20px;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(26,28,33);
+    width: 65%;
+}
+
+.header {
+    font-size: 22px;
+    color: rgb(239,244,30);
+}
+
+.sub-head {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.content {
+    font-size: 18px;
+}
+
+.proj-link{
+    color:rgb(239,244,30);
+    font-style: italic;
+    margin-right:12px;
+}
+
+.proj-link:visited{
+    color: burlywood;
+    font-style: normal;
+}
+
+.carousel {
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+}
