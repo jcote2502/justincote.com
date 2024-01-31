@@ -34,7 +34,7 @@ const About = () => {
         <div className='scaffold'>
             <div className='wrap-container'>
                 <div className='topic-wrap'>
-                    <img src={suit} alt='personal' className='bruh' />
+                    <img src={suit} alt='personal' className='intro-image' />
                     <div className='intro-container'>
                         <div className='header'>About Me</div>
                         <div className='intro-paragraph'>{intro}</div>
@@ -45,7 +45,7 @@ const About = () => {
                         <source src={guitarVideo} />
                     </video>
                     <div className='paragraph'>{guitarComment}</div>
-                    <img src={guitar} alt='piano' className='image' />
+                    <img src={guitar} alt='piano' className='about-image' />
                 </div>
                 <div className='topic-wrap'>
                     <video width='300px' className='video-container' controls>
@@ -61,7 +61,7 @@ const About = () => {
                     <video width='300px' className='video-container' controls>
                         <source src={footballVideo} />
                     </video>
-                    <img src={Football} alt='football' className='image' />
+                    <img src={Football} alt='football' className='about-image' />
                 </div>
             </div>
         </div>

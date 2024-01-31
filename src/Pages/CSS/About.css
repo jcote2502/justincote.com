@@ -14,13 +14,14 @@
     justify-content: center;
     align-items: center;
 }
-.image{
+.about-image{
     object-fit: scale-down;
     min-width: 30%;
     min-height: 160px;
     flex:10%;
+    margin:25px;
 }
-.bruh{
+.intro-image{
     width: 12%;
     object-fit: scale-down;
 }
