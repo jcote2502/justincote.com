@@ -4,7 +4,6 @@ import './CSS/Project.css';
 import '../App.css';
 import { ProjectCard } from "../Components/Cards";
 import { useNavigate } from "react-router-dom";
-import { setProject } from "./Project";
 import { Footer } from "../Components/Layouts";
 
 // AUTHOR : JUSTIN COTE
@@ -15,8 +14,8 @@ const Projects = () => {
     const featureRow = (items,label) => {
 
         const goToProject = (data) => {
-            setProject(data);
-            navigate(`${data.title}`);
+            // setProject(data);
+            navigate(`/projects/${encodeURIComponent(data.title)}`);
         }
 
         return (
@@ -35,7 +34,7 @@ const Projects = () => {
     return (
         <div className="scaffold">
             <div className="page-container">
-                {featureRow([project.NFL_Fanshop(),project.HeardTHT()],"Application Developement")}
+                {featureRow([project.NFL_Fanshop(),project.HeardTHT()],"Application Development")}
                 {featureRow([project.SentimentalAnalysis(),project.LexicalAnalysis()],"Machine Learning")}
                 {featureRow([project.ThreadSystem(),project.MiniOS(),project.DynamicMemory(),project.FileSystem()],"Systems Programming")}
             </div>

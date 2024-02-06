@@ -5,8 +5,7 @@ import {Information, SelectFile, ViewFile} from './Pages/Information.js';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
 import About from './Pages/About.js';
-import { Project } from './Pages/Project.js';
-
+import Project from './Pages/Project.js';
 // AUTHOR : JUSTIN COTE
 
 const Routes = () => (

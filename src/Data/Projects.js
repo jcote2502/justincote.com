@@ -9,18 +9,7 @@ import img6 from '../Assets/Images/431Pics/img6.png';
 const handleDragStart = (e) => e.preventDefault();
 
 class Project {
-    constructor() {
-        this.tags = [
-            'Artificial Intelligence',
-            'Web Development',
-            'Systems Programming',
-            'Mobile Application Development',
-            'C',
-            'Python',
-            'JavaScript'
-        ]
-    }
-
+    
     SentimentalAnalysis() {
         const myData = {
             title: 'Sentimental Analysis Project',
