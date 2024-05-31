@@ -46,7 +46,7 @@ class HomeData{
                     degree: 'Bachelors of Science',
                     major:'Computer Science',
                     minor:'Entrepreunurship and Innovation in Engineering',
-                    GPA:'3.2',
+                    GPA:'3.3',
                     honors:["Dean's List"],
                     clubs:['Ski Club : 2022 - 2023','IM Flag Football : 2021 - 2023'],
                     icon:PennState
